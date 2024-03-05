@@ -7,11 +7,11 @@ Usage
 Clone the Repository
 
 bash
-git clone https://github.com/your-username/log-parser.git
+git clone https://github.com/febilp/fair_billing.git
 Navigate to the Directory
 
 bash
-cd log-parser
+cd fair_billing
 Run the Script
 
 Run the script by providing the path to the log file as a command-line argument:
