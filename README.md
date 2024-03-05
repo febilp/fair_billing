@@ -16,7 +16,6 @@ Run the Script
 
 Run the script by providing the path to the log file as a command-line argument:
 
-php
 Copy code
 python script.py <file_path>
 Replace <file_path> with the path to your log file.
@@ -29,4 +28,4 @@ Requirements
 Python 3.x
 Notes
 The log file should follow a specific format for the script to work correctly. Each line in the log file should contain timestamp, username, and action (e.g., Start or End).
-Invalid lines or lines with repeated characters in the username are skipped during parsing.
+Invalid lines or lines with repeated characters (3 or more than 3) in the username are skipped during parsing.
